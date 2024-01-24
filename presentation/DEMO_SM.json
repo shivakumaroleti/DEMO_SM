@@ -10,6 +10,8 @@
       "name" : "presentationTable:DEMO_SM.Customers"
     }, {
       "name" : "presentationTable:DEMO_SM.Base Facts"
+    }, {
+      "name" : "presentationTable:DEMO_SM.Customer Regions"
     } ]
   }
 }
