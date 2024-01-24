@@ -1,0 +1,17 @@
+{
+  "physicalTable" : {
+    "name" : "D3 Customers",
+    "sourceTable" : "physicalTable:DEMO_SM.BISAMPLE.SAMP_CUSTOMERS_D",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:DEMO_SM.BISAMPLE.D4 Addresses",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DEMO_SM.BISAMPLE.D3 Customers.ADDRESS_KEY",
+        "rightColumn" : "physicalColumn:DEMO_SM.BISAMPLE.D4 Addresses.ADDRESS_KEY"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

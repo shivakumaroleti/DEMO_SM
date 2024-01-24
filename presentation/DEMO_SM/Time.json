@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "Time",
+    "presentationColumns" : [ {
+      "name" : "Calendar Date",
+      "sourceLogicalColumn" : "logicalColumn:DEMO_SM_LL.D1 Time.Calendar Date"
+    }, {
+      "name" : "Per Name Half",
+      "sourceLogicalColumn" : "logicalColumn:DEMO_SM_LL.D1 Time.Per Name Half"
+    }, {
+      "name" : "Per Name Month",
+      "sourceLogicalColumn" : "logicalColumn:DEMO_SM_LL.D1 Time.Per Name Month"
+    }, {
+      "name" : "Per Name Qtr",
+      "sourceLogicalColumn" : "logicalColumn:DEMO_SM_LL.D1 Time.Per Name Qtr"
+    }, {
+      "name" : "Per Name Week",
+      "sourceLogicalColumn" : "logicalColumn:DEMO_SM_LL.D1 Time.Per Name Week"
+    }, {
+      "name" : "Per Name Year",
+      "sourceLogicalColumn" : "logicalColumn:DEMO_SM_LL.D1 Time.Per Name Year"
+    } ]
+  }
+}

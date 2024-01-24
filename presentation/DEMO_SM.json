@@ -1,0 +1,15 @@
+{
+  "subjectArea" : {
+    "name" : "DEMO_SM",
+    "sourceBusinessModel" : "businessModel:DEMO_SM_LL",
+    "tableOrder" : [ {
+      "name" : "presentationTable:DEMO_SM.Time"
+    }, {
+      "name" : "presentationTable:DEMO_SM.Products"
+    }, {
+      "name" : "presentationTable:DEMO_SM.Customers"
+    }, {
+      "name" : "presentationTable:DEMO_SM.Base Facts"
+    } ]
+  }
+}
